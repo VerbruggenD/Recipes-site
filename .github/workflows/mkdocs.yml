@@ -1,0 +1,31 @@
+name: MkDocs CI
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install dependencies
+      run: pip install mkdocs mkdocs-material
+
+    - name: Build site
+      run: mkdocs build
+
+    - name: Deploy to Raspberry Pi
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.PI_HOST }}
+        username: ${{ secrets.PI_USERNAME }}
+        password: ${{ secrets.PI_PASSWORD }}
+        script: |
+          cd /path/to/mkdocs
+          git pull
+          mkdocs build -d /var/www/html
