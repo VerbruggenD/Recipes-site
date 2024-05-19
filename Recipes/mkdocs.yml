@@ -1,0 +1,30 @@
+site_name: Approved recipes
+theme:
+  name: material
+  palette:
+    primary: grey
+    accent: blue
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - Home: index.md
+  - Main Courses: 
+      - Main Courses: main-courses.md
+      - Carbonara: main-courses/spaghetti_carbonara.md
+      - Pizza: main-courses/pizza.md
+  - Appetizers: appetizers.md
+  - Desserts: desserts.md
+  - Soup: soup.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
