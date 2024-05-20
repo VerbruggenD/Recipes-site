@@ -16,12 +16,17 @@ theme:
 nav:
   - Home: index.md
   - Main Courses: 
-      - Main Courses: main-courses.md
+      - Main Courses: main-courses/main-courses.md
       - Carbonara: main-courses/spaghetti_carbonara.md
       - Pizza: main-courses/pizza.md
-      - Pasta: main-courses/pasta.md
-  - Appetizers: appetizers.md
-  - Desserts: desserts.md
+  - Ingredients:
+      - Ingredients: ingredients/ingredients.md
+      - Pasta: ingredients/pasta.md
+  - Appetizers: 
+      - Appetizers: appetizers.md
+  - Desserts: 
+      - Desserts: desserts.md
+      - Chocomouse: desserts/chocomouse.md
   - Soup: soup.md
 
 markdown_extensions:

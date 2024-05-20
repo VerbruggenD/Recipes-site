@@ -1,17 +1,7 @@
-# Welcome to MkDocs
+# Welcome to the recipe site of the Verbruggen house hold
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- [Main courses](main-courses/main-courses.md)
+- [Ingredients](ingredients/ingredients.md)
+- [Appetizers](appetizers/appetizers.md)
+- [Desserts](desserts/desserts.md)
+- [Soup](soup/soup.md)
