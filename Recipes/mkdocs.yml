@@ -19,6 +19,7 @@ nav:
       - Main Courses: main-courses.md
       - Carbonara: main-courses/spaghetti_carbonara.md
       - Pizza: main-courses/pizza.md
+      - Pasta: main-courses/pasta.md
   - Appetizers: appetizers.md
   - Desserts: desserts.md
   - Soup: soup.md
