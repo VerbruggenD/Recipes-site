@@ -1,4 +1,4 @@
-# Penne a arrabiata
+# Penne all'arrabiata
 
 ## Ingredients
 - 500g of pasta penne.
